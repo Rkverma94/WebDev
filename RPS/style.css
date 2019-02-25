@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: gray;
+}
+
+header > h1{
+  text-align: center;
+  background-color: white;
+}
+
+.score_board{
+  text-align: center;
+  padding: 20px;
+  margin: 10px 275px;
+  border: 2px solid white;
+  position: relative;
+  border-radius: 5px;
+}
+
+#user_label{
+  font-family: fantasy;
+  font-size: 20px;
+  background-color: red;
+  position: absolute;
+  top: 30%;
+  left: -17%;
+}
+
+#comp_label{
+  font-family: fantasy;
+  font-size: 20px;
+  background-color: red;
+  position: absolute;
+  top: 30%;
+  right: -17%;
+}
+
+#user_score{
+  font-size: 20px;
+}
+
+#computer_score{
+  font-size: 20px;
+}
+
+.res{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 24px;
+}
+
+.choices{
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+}
+
+.choice{
+  display: inline-block;
+  margin: 0px 25px;
+  border: 2px solid black;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+
+
+
+.win{
+  border-color: green;
+  background-color: green;
+}
+.lose{
+  border-color: red;
+  background-color: red;
+}
+.draw{
+  border-color: black;
+  background-color: black;
+  color: white;
+}
