@@ -1,2 +1,2 @@
 # WebDev
-Small timepass projects
+Small Cool projects
